@@ -1,0 +1,138 @@
+/* CSS Document */
+
+@font-face {
+    font-family: bodyFont;
+    src: url('/vx_/css/fonts/trebuc.ttf');  
+} 
+@font-face {
+    font-family: bodyFontBold;
+    src: url('/vx_/css/fonts/trebucbd.ttf');  
+} 
+@font-face {
+    font-family: xcoll;
+    src: url('/vx_/css/fonts/xcoll.ttf');  
+} 
+@font-face {
+    font-family: xnewz;
+    src: url('/vx_/css/fonts/xnewz.ttf');  
+} 
+@font-face {
+    font-family: xscripts;
+    src: url('/vx_/css/fonts/xscripts.ttf');  
+}
+@font-face {
+    font-family: xpress;
+    src: url('/vx_/css/fonts/xpress.ttf');  
+}
+@font-face {
+    font-family: xscriptsx;
+    src: url('/vx_/css/fonts/xscriptsx.ttf');  
+}
+
+:root {
+  --header-bg: #ffffff;
+  --body-bg: #d0d9e6;
+  --body-transparent: rgba(255,255,255,0.6);
+  --search-overlay: rgba(208,217,230,0.6);
+  --body-color: #313131; 
+  --body-border-color: #ccc; 
+  --bborder: #ccc;
+  --font11: 11px;
+  --font12: 12px;
+  --font14: 14px;
+  --font16: 16px;
+  --font18: 18px;
+  --font19: 19px;
+  --font20: 20px;
+  --font22: 22px;
+  --font24: 24px;
+  
+  /* FONTS -------------- */
+  	--bodyFont: "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+  /* -------------------- */
+  
+  /* LINKS -------------- */
+	--a-color: #3B3B3B;
+	--a-color-hover: #3B3B3B;
+	--a-color-active: #3B3B3B;
+	--a-color-focus: #3B3B3B;
+  /* -------------------- */
+  
+  /* FORM ELEMENTS -------------- */
+  	--input-height: 42px;
+	--input-border-color: #ccc; 
+	--input-background: #fff;
+	--input-padding-left: 10px;
+	--input-padding-right: 10px;
+	--input-border-radius: 0px;
+	--select-height: 43px;
+  /* ---------------------------- */
+  
+  /* COMMON COLORS -------------- */
+		--black: #171717;
+		--white: #fff;
+		--ewhite: #fff8e6;
+		--efwhite: #ffebe6;
+		--cwhite: #cfcfcf;
+		--cwwhite: #e9e9e9;
+		--fwhite: #f3f3f3;
+		--mtwhite: #f4f4f4;
+	/*-------------------------*/
+		--bgray: #535a62;
+		--lgray: #424242;
+		--gray: #7d7d7d;
+		--light-gray: #EFEFEF;
+		--medium-gray: #b5b5b5;
+		--dark-gray: #454545;
+		--bbgray: #ccc;
+		--cwgray: #808080;
+		--ggray: #495256;
+	/*-------------------------*/
+		--blue: #224c67;
+		--transparent-blue: rgba(34,76,103,0.4);
+		--lblue: #4c75b2;
+		--ll-blue: #e2f5fa;
+		--light-blue: #a0bfe8;
+		--bright-blue: #0daec6;
+		--bblue: #1e477e;
+		--dark-blue: #152d3e;
+	/*-------------------------*/
+		--lred: #b95252; 
+		--bred: #c93033;
+		--red: #810e21;
+		--redish: #AB3F41;
+		--red-gray: #703b44;
+		--light-red: #ffa0a0;
+		--dark-red: #50020f;
+	/*-------------------------*/
+		--yellow: #f1e746;
+		--lyellow: #f4bd54;
+		--light-yellow: #e8e392;
+		--dark-yellow: #f0ad4e;
+	/*-------------------------*/
+		--lgreen: #79b952;
+		--bgreen: #7F976F;
+		--green: #6ca246;
+		--light-green: #b6e892;
+		--dark-green: #366018;
+	/*-------------------------*/
+		--purple: #943db4;
+		--light-purple: #e5a0ff;
+		--dark-purple: #47105c;
+	/*-------------------------*/
+		--orange: #c17124;
+		--light-orange: #d48f6a;
+		--gold: #ffae00;
+  /* ---------------------------- */
+  
+  
+  
+  	/*----- SEARCH INPUT ------*/
+	--search-height:42px;
+	--search-width:220px;
+	--search-button-height:42px;
+	--search-button-width:46px;
+	--search-button-top-offset:-1px;
+	--search-button-left-offset:-5px;
+  /* ---------------------------- */
+}

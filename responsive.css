@@ -1,0 +1,348 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 1800px) {
+		.responsive:before {
+			content: "min-width : 1800px";	
+		}
+    }
+    @media only screen and (max-width : 1800px) {
+		.responsive:before {
+			content: "max-width : 1800px";	
+		}
+    }
+	
+    @media only screen and (max-width : 1490px) {
+		.hidden1490 {
+			display:none;
+		}
+		.responsive:before {
+			content: "max-width : 1480px";	
+		}
+    }
+    @media only screen and (max-width : 1410px) {
+		.hidden1410 {
+			display:none;
+		}
+		.show1410 {
+			display:inline-block;
+		}
+		.responsive:before {
+			content: "max-width : 1410px";	
+		}
+    }
+    @media only screen and (min-width : 1410px) {
+		.show1410 {
+			display:none;
+		}
+		.responsive:before {
+			content: "min-width : 1410px";	
+		}
+    }
+	
+    @media only screen and (max-width : 1400px) {
+		.responsive:before {
+			content: "max-width : 1400px";	
+		}
+
+    }
+	@media only screen and (min-width : 1200px) {
+		#loginForm {
+			width:580px;	
+		}
+		#bodyContainer > div {
+			padding:20px 40px 20px 40px;	
+		}
+		.dashSpacer {
+			padding-left:20px;
+		}
+	}
+    @media only screen and (max-width : 1200px) {
+		.headerLogo {
+			height:100px;
+			width:420px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/Logo.png");
+		}
+		.xHeaderLogo {
+			height:100px;
+			width:420px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/Logo.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.dashSpacer {
+			padding-left:0px;
+			margin-top:20px;
+		}
+		#loginForm {
+			width:580px;	
+		}
+		.responsive:before {
+			content: "max-width : 1200px";	
+		}
+		#bodyContainer > div {
+			padding:10px 20px 10px 20px;	
+		}
+    }
+	@media only screen and (min-width : 1050px) {
+		#bodyContainer > div {
+			padding:10px 20px 10px 20px;	
+		}
+	}
+    @media only screen and (max-width : 1024px) {
+		.headerLogo {
+			height:80px;
+			width:300px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;	
+			content:url("/vx_/images/LogoA.png");
+		}
+		.xHeaderLogo {
+			height:80px;
+			width:300px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoA.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#bodyNavigation {
+			width:200px;	
+		}
+		#bodyAdverts {
+			display:none;	
+		}
+		#loginForm {
+			width:520px;	
+		}
+		#bodyContainer > div {
+			padding:20px;	
+		}
+		.responsive:before {
+			content: "max-width : 1024px";	
+		}
+    }
+    @media only screen and (max-width : 972px) {
+		.headerLogo {
+			height:80px;
+			width:200px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoB.png");
+		}
+		.xHeaderLogo {
+			height:80px;
+			width:200px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoB.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#loginForm {
+			width:480px;	
+		}
+		.responsive:before {
+			content: "max-width : 972px";	
+		}
+    }
+	@media only screen and (max-width : 860px) {
+
+	}
+	@media only screen and (max-width : 810px) {
+
+	}
+    @media only screen and (max-width : 768px) {
+		.headerLogo {
+			height:80px;
+			width:200px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoB.png");	
+		}
+		.xHeaderLogo {
+			height:80px;
+			width:200px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoB.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.smHeader .headerLogo, .smPhoneHeader .headerLogo {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoE.png");	
+		}
+		.smHeader .xHeaderLogo, .smPhoneHeader .xHeaderLogo {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoE.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#loginForm {
+			width:400px;	
+		}
+		.responsive:before {
+			content: "max-width : 768px";	
+		}
+
+    }
+    @media only screen and (max-width : 700px) {
+		.headerLogo {
+			height:80px;
+			width:120px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoC.png");	
+		}
+		.xHeaderLogo {
+			height:80px;
+			width:120px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoC.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.smHeader .headerLogo, .smPhoneHeader .headerLogo {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoE.png");	
+		}
+		.smHeader .xHeaderLogo, .smPhoneHeader .xHeaderLogo {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoE.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#loginForm {
+			width:380px;	
+		}
+		.loginInput {
+			width:256px;	
+		}
+		.responsive:before {
+			content: "max-width : 700px";	
+		}
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		.mheader .headerLogo {
+			height:80px;
+			width:200px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoB.png");	
+		}
+		.mheader .xHeaderLogo {
+			height:80px;
+			width:200px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoB.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.smHeader .headerLogo, .smPhoneHeader .headerLogo  {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoE.png");	
+		}
+		.smHeader .xHeaderLogo, .smPhoneHeader .xHeaderLogo  {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoE.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.responsive:before {
+			content: "max-width : 480px";	
+		}
+		#loginForm {
+			width:300px;	
+		}
+		.loginInput {
+			width:232px;	
+		}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+		.mheader .headerLogo {
+			height:80px;
+			width:120px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoC.png");	
+		}
+		.mheader .xHeaderLogo {
+			height:80px;
+			width:120px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoC.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.smHeader .headerLogo, .smPhoneHeader .headerLogo {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			content:url("/vx_/images/LogoE.png");	
+		}
+		.smHeader .xHeaderLogo, .smPhoneHeader .xHeaderLogo {
+			height:40px;
+			width:124px;
+			-webkit-transition: width 0.3s, height 0.3s;
+			transition: width 0.3s, height 0.3s;
+			background:url("/vx_/images/LogoE.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+        .responsive:before {
+			content: "max-width : 320px";	
+		}
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
